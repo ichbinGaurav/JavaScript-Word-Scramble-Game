@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    width: 100%;
+    line-height: 12vh;
+    background-color: rgba(127, 255, 212, 0.575);
+}
+
+h1
+{
+    font-family: 'Newsreader', serif;
+    text-align: center;
+    color: rgb(173, 127, 66);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+section
+{
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(64, 224, 208, 0.609);
+}
+.hidden
+{
+    display: none;
+}
+#scoreBox{
+    position:absolute;
+    top: 109px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+.gameArea
+{
+    width: 50%;
+    height: 400px; 
+    display:flex;
+    padding: 20px 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(64, 224, 208);    
+}
+
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+input
+{
+    width: 70%;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: #dff9fb;
+    margin: 2rem 0;
+    font-size: 1.7rem;
+    color: blue;
+    
+}
+
+button
+{
+   
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+button.btn
+{
+    width: 80%;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background: white;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.65, -0.25, 0.25, 1.95);
+}
+
+button.btn:hover,button.btn:focus,button.btn:active
+{
+    letter-spacing:0.125rem ;
+    word-spacing: 0.2rem;
+    background-color: rgba(238, 130, 238, 0.644);
+}
